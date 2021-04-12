@@ -36,7 +36,7 @@ public class UserEventNextActivity extends Activity {
 
                 Intent intent = new Intent();
                 intent.putExtra("result", result);
-                setResult(Activity.RESULT_OK);
+                setResult(Activity.RESULT_OK, intent);
                 finish();
             }
         });
