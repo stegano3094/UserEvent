@@ -24,14 +24,14 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="버튼 클릭"
+        android:text="버튼"
         android:onClick="onButtonClicked"/>
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dialog"/>
+        android:text="다이얼로그"/>
 
     <Button
         android:id="@+id/button3"
